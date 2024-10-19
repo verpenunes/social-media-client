@@ -4,7 +4,7 @@ import { validEmail, validPassword } from '../../support/testdata';
 describe('Login with valid credentials', () => {
   it('User can log in with valid credentials', () => {
     // Visit the login page
-    cy.visit('https://bekzatbagdat.github.io/social-media-client/');
+    cy.visit('https://verpenunes.github.io/social-media-client/');
 
     // Ensuring the register modal is not visible
     cy.get('#registerModal').then($modal => {
