@@ -12,7 +12,9 @@
     "description": "example",
     "type": "module",
     "test": "npm run test-e2e",
-    "test-e2e": "cypress open"
+    "test-e2e": "cypress open",
+    "testunit": "npm run test-unit",
+    "test-unit": "jest"
   },
   "keywords": [],
   "author": "Noroff",
