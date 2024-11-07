@@ -17,6 +17,8 @@ The task was to use this existing repository and improve its quality by testing 
 
 [![Deploy static content to Pages](https://github.com/verpenunes/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/verpenunes/social-media-client/actions/workflows/pages.yml)
 
+[![Automated E2E Testing](https://github.com/verpenunes/social-media-client/actions/workflows/e2e.test.yml/badge.svg)](https://github.com/verpenunes/social-media-client/actions/workflows/e2e.test.yml)
+
 
 ## Installation & Running
 
