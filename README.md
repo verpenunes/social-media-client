@@ -19,6 +19,8 @@ The task was to use this existing repository and improve its quality by testing 
 
 [![Automated E2E Testing](https://github.com/verpenunes/social-media-client/actions/workflows/e2e.test.yml/badge.svg)](https://github.com/verpenunes/social-media-client/actions/workflows/e2e.test.yml)
 
+[![Automated Unit Testing](https://github.com/verpenunes/social-media-client/actions/workflows/test-unit.yml/badge.svg)](https://github.com/verpenunes/social-media-client/actions/workflows/test-unit.yml)
+
 
 ## Installation & Running
 
