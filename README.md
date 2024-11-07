@@ -27,7 +27,7 @@ The task was to use this existing repository and improve its quality by testing 
 1. Clone the repo
 
 ```bash
-git clone https://github.com/verpenunes/Workflow.git
+git clone https://github.com/verpenunes/social-media-client.git
 ```
 
 2. Install the dependencies
