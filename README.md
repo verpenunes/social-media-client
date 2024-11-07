@@ -17,10 +17,6 @@ The task was to use this existing repository and improve its quality by testing 
 [![Deploy static content to Pages](https://github.com/verpenunes/social-media-client/actions/workflows/pages.yml/badge.svg?branch=workflow)](https://github.com/verpenunes/social-media-client/actions/workflows/pages.yml)
 
 
-[![Automated testing with unit-test and end-to-end tests](https://github.com/verpenunes/social-media-client/actions/workflows/tests.yml/badge.svg)](https://github.com/verpenunes/social-media-client/actions/workflows/e2e-tests.yml)
-
-
-
 ## Installation & Running
 
 1. Clone the repo
