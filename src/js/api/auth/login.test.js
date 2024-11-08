@@ -2,14 +2,14 @@
 import { login } from './login';
 
 const localStorageMock = {
-  setItem: jest.fn()
+  setItem: jest.fn(),
 };
 
 global.localStorage = localStorageMock;
 
 global.fetch = jest.fn().mockResolvedValue({
   ok: true,
-  json: () => Promise.resolve({ accessToken: 'fakeToken' })
+  json: () => Promise.resolve({ accessToken: 'fakeToken' }),
 });
 
 describe('login', () => {
@@ -18,7 +18,7 @@ describe('login', () => {
 
     expect(localStorage.setItem).toHaveBeenCalledWith(
       'token',
-      JSON.stringify('fakeToken')
+      JSON.stringify('fakeToken'),
     );
   });
 });

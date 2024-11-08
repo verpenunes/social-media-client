@@ -2,7 +2,7 @@
 import { logout } from './logout';
 
 const localStorageMock = {
-  removeItem: jest.fn()
+  removeItem: jest.fn(),
 };
 
 global.localStorage = localStorageMock;
