@@ -4,6 +4,7 @@ import { invalidEmail, invalidPassword } from '../../support/testdata';
 describe('Cannot login with invalid credentials', () => {
   it('cannot login with invalid credentials', () => {
     cy.visit('https://verpenunes.github.io/social-media-client/');
+    cy.wait(5000);
 
     cy.get('#registerModal').then($modal => {
       if ($modal.is(':visible')) {
@@ -18,7 +19,7 @@ describe('Cannot login with invalid credentials', () => {
     cy.get('button[data-auth="login"][data-bs-toggle="modal"]')
       .eq(1)
       .click();
-
+    cy.wait(5000);
     cy.get('#loginEmail').type(invalidEmail);
     cy.get('#loginPassword').type(invalidPassword);
 
