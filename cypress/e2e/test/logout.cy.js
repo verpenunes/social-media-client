@@ -4,6 +4,7 @@ import { validEmail, validPassword } from '../../support/testdata';
 describe('Login first then logout', () => {
   it('Can login with valid credentials then logout after logout button appears', () => {
     cy.visit('https://verpenunes.github.io/social-media-client/');
+    cy.wait(5000);
 
     cy.get('#registerModal').then($modal => {
       if ($modal.is(':visible')) {
@@ -18,7 +19,7 @@ describe('Login first then logout', () => {
     cy.get('button[data-auth="login"][data-bs-toggle="modal"]')
       .eq(1)
       .click();
-
+    cy.wait(5000);
     cy.get('#loginEmail').type(validEmail);
     cy.get('#loginPassword').type(validPassword);
 
