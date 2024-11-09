@@ -65,3 +65,4 @@ Both Cypress & Jest Test
 ```bash
 npm run test
 ```
+<img width="1180" alt="bilde" src="https://github.com/user-attachments/assets/086f73f1-c8f4-47d9-9e50-eae34e1e4739">
